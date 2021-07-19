@@ -102,3 +102,58 @@ div#slide {
   top: 50%;
   transform: rotate(-50 -50);
 }
+div#contents {
+  height: 200px;
+  border: 1px solid #000;
+}
+
+#contents > div {
+  padding: 4px;
+  border: 1px solid #000;
+  margin: 4px;
+
+  flex: 1;
+}
+
+#contents div#bbs button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 12px;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+#contents div#bbs button:first-child {
+  left: 6px;
+}
+
+#contents div#bbs button.selected {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+
+#contents #bbs div.tabcontents {
+  border: 1px solid #aaa;
+}
+#contents #bbs div#tabnotice {
+  display: none;
+}
+
+#contents #bbs div#tabgallery {
+  /* display: none; */
+}
+#contents #bbsgallery td {
+  text-align: center;
+}
+#contents #bbs table {
+  width: 100%;
+  height: 148px;
+  /*border: 1px solid #08f;*/
+}
+
+#contents #bbs table td {
+  line-height: 32px;
+  /*border: 1px solid #08f; */
+}

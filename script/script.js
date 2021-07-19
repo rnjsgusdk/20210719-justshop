@@ -27,6 +27,15 @@ $(function(){
     $("slide a:nth-child(2)").fadeIn(3000);
     }
 
+$("#bbs button").click(function(){
+    $("#bbs button").removecalss("selected");
+    $(this).addcalss("selcted");
+
+    var dataLink = $(this).attr("data-link");
+$("#bbs.tabcontents").css({"dispaly : none"});
+
+});
+
 
   
         
